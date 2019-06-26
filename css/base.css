@@ -1,0 +1,104 @@
+body{
+
+}
+@font-face {
+    font-family: 'AdobeGothicStd-Bold';
+    src: url("../fonts/AdobeGothicStd-Bold.otf");
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    min-height: 76px;
+    width: auto;
+}
+
+.first{
+    display: flex;
+    width: 100%;
+    height: 550px;
+    flex-direction: column;
+    background: url("../background/banner.png")  no-repeat;
+    background-size: cover;
+    justify-content: space-between;
+}
+
+.second{
+    display: flex;
+    width: 100%;
+    min-height: 500px;
+    background: #edeff0;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+#Capa_1 path:nth-child(1){
+    fill: red;
+}
+.Capa_2{
+    width: 26px;
+    height: 26px;
+    fill:white;
+}
+.Capa_2_1{
+
+    width: 16px;
+    height: 16px;
+    fill:red;
+    /*fill: #D8232A;*/
+}
+.Capa_3{
+    width: 20px;
+    height: 20px;
+    fill:#D8232A;
+}
+.white_dwnl{
+display: flex;
+    width: 20px;
+    height: 20px;
+    fill: #ffffff;
+}
+.play_icon{
+    width: 20px;
+    height: 20px;
+    fill: white;
+}
+.guardian{
+    background: url("../icons/section3/guardians.png") center/cover no-repeat;
+}
+.guardian{
+    background: url("../icons/section3/guardians.png") center/cover no-repeat;
+}
+.the_first{
+    background: url("../icons/section3/firstavenger.png") center/cover no-repeat;
+}
+.im_3{
+    background: url("../icons/section3/iron man 3.png") center/cover no-repeat;
+}
+.white{
+    background: white;
+}
+.tor{
+    background: url("../icons/section3/tor.png") center/cover no-repeat;
+}
+.hulk{
+    background: url("../icons/section3/hulk.png") center/cover no-repeat;
+}
+.xmans{
+    display: flex;
+    background: url("../icons/section3/xmans.png") center/cover no-repeat;
+
+}
+.spider{
+    background: url("../icons/section3/amazingspiderman.png") center/cover no-repeat;
+}
+.capitan{
+    background: url("../icons/section3/capitan.png") center/cover no-repeat;
+}
+.wolverine{
+    background: url("../icons/section3/Wolverine.png") center/cover no-repeat;
+}
+.spiderman{
+    background: url("../icons/section3/spiderman.png") center/cover no-repeat;
+}
